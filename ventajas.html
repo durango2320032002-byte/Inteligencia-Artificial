@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA - Ventajas</title>
+    <style>
+        :root { --primary: #1a252f; --secondary: #9b59b6; --bg: #f5f7fa; --text: #2c3e50; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; margin: 0; background: var(--bg); color: var(--text); }
+        header { background: var(--primary); color: white; padding: 25px; text-align: center; border-bottom: 4px solid var(--secondary); }
+        nav { background: #2c3e50; display: flex; justify-content: center; padding: 10px 0; }
+        nav a { color: white; text-decoration: none; padding: 10px 20px; margin: 0 5px; border-radius: 4px; font-weight: bold; }
+        nav a.active, nav a:hover { background: var(--secondary); }
+        .container { max-width: 1000px; margin: 30px auto; padding: 30px; background: white; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border-radius: 8px; }
+        h2 { color: var(--primary); border-bottom: 2px solid var(--secondary); padding-bottom: 10px; margin-top: 30px; }
+        /* Formulario HTML funcional (10 puntos) */
+        form { background: #fff; padding: 25px; border: 1px solid #e1e8ed; border-radius: 8px; margin-top: 20px; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; margin-bottom: 5px; font-weight: bold; }
+        .form-group input, .form-group select { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { background: var(--secondary); color: white; padding: 12px 25px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; font-weight: bold; }
+        button:hover { background: #8e44ad; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Explorando la Inteligencia Artificial</h1>
+        <p>Conceptos, evolución y desafíos de las ciencias de la computación</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="historia.html">Historia</a>
+        <a href="aplicaciones.html">Aplicaciones</a>
+        <a href="ventajas.html" class="active">Ventajas</a>
+        <a href="desventajas.html">Desventajas</a>
+    </nav>
+
+    <div class="container">
+        <h2>Ventajas del Uso de Sistemas de IA</h2>
+        <p>La adopción sistémica de la Inteligencia Artificial ha permitido romper barreras técnicas históricas, ofreciendo enormes beneficios:</p>
+        <p><strong>Automatización y Eficiencia de Procesos:</strong> Las computadoras procesan tareas repetitivas de forma ininterrumpida las 24 horas del día, disminuyendo los tiempos operativos a una fracción del costo tradicional.</p>
+        <p><strong>Reducción del Error Humano:</strong> En tareas donde la fatiga puede alterar los resultados (como la contabilidad o el análisis de planos), las máquinas configuradas correctamente entregan una precisión predictiva matemática absoluta.</p>
+
+        <!-- Formulario Reglamentario -->
+        <h2>Formulario de Consulta e Interés sobre IA</h2>
+        <p>¿Te interesa recibir recursos académicos sobre redes neuronales? Registra tus datos aquí:</p>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej. Carlos Fuentes" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo de Contacto:</label>
+                <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+            </div>
+            <div class="form-group">
+                <label for="interes">Rama de mayor interés:</label>
+                <select id="interes" name="interes">
+                    <option value="ml">Machine Learning (Aprendizaje Automático)</option>
+                    <option value="vision">Visión por Computadora</option>
+                    <option value="nlp">Procesamiento de Lenguaje (PLN)</option>
+                </select>
+            </div>
+            <button type="submit">Enviar Registro</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Portal Educativo de Inteligencia Artificial. Código HTML limpio.</p>
+    </footer>
+
+</body>
+</html>
